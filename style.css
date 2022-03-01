@@ -23,6 +23,9 @@ body {
     line-height: 1.5;
 }
 
+
+/* HEADER */
+
 header {
     padding: 0 1.25rem;
     min-height: 4.6875rem;
@@ -39,7 +42,7 @@ header {
 .logo img {
     width: 100%;
     height: 100%;
-    max-width: 100px;
+    max-width: 90px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -56,4 +59,42 @@ header {
 #nav-bar ul li a {
     text-decoration: none;
     color: #ffcf00;
+}
+
+
+/* HERO */
+
+.container {
+    max-width: 1480px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.hero {
+    margin-top: 2rem;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.text-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: #140033;
+    color: #ffcf00;
+    padding: 12px 15px;
+    border-radius: 5px;
+}
+
+.img-flex img {
+    width: 100%;
+    height: 100%;
+    max-width: 100rem;
 }

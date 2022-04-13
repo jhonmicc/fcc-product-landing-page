@@ -2,57 +2,127 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FCC: Product Landing Page</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FCC: Product Landing Page</title>
 
-    <!-- Normalize CSS -->
-    <link rel="stylesheet" href="normalize.css" />
+  <!-- Normalize CSS -->
+  <link rel="stylesheet" href="normalize.css" />
 
-    <!-- My Style -->
-    <link rel="stylesheet" href="style.css" />
+  <!-- My Style -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/58da889dba.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header id="header">
-        <div class="logo">
-            <img src="img/header-logo.png" alt="" id="header-img" />
-        </div>
-        <nav id="nav-bar">
-            <ul>
-                <li>
-                    <a href="#features" class="nav-link">Features</a>
-                </li>
-                <li>
-                    <a href="#howitworks" class="nav-link">How It Works</a>
-                </li>
-                <li>
-                    <a href="#pricing" class="nav-link">Pricing</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-
-    <div class="container">
-        <section class="hero">
-            <div class="flex">
-                <div class="text-flex">
-                    <h1>Talkshow Ideas</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium officiis cumque, consequuntur asperiores error aliquam saepe quia fugit eveniet beatae, repudiandae nostrum. Odit adipisci, ut iste tenetur nemo consequuntur. Magni est quisquam vero
-                        blanditiis ut maxime eius, fugiat dolorem veniam facilis nemo cumque vel nesciunt eaque optio architecto reprehenderit nobis.
-                    </p>
-                    <a href="#" class="btn">Get Started</a>
-                </div>
-                <div class="img-flex">
-                    <img src="img/promotion-talk.jpg" alt="" />
-                </div>
-            </div>
-        </section>
+  <header id="header">
+    <div class="logo">
+      <img src="img/header-logo.png" alt="" id="header-img" />
     </div>
+    <nav id="nav-bar">
+      <ul>
+        <li>
+          <a href="#features" class="nav-link">Features</a>
+        </li>
+        <li>
+          <a href="#howitworks" class="nav-link">How It Works</a>
+        </li>
+        <li>
+          <a href="#pricing" class="nav-link">Pricing</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <div class="container">
+    <section class="hero">
+      <div class="flex-hero">
+        <div class="text-flex">
+          <h1>Talkshow Ideas</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Praesentium officiis cumque, consequuntur asperiores error aliquam
+            saepe quia fugit eveniet beatae, repudiandae nostrum. Odit
+            adipisci, ut iste tenetur nemo consequuntur. Magni est quisquam
+            vero blanditiis ut maxime eius, fugiat dolorem veniam facilis nemo
+            cumque vel nesciunt eaque optio architecto reprehenderit nobis.
+          </p>
+          <a href="#" class="btn">Get Started</a>
+        </div>
+        <div class="img-flex">
+          <img src="img/promotion-talk.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <div class="container-feature">
+        <h1 class="feature-heading">Our Feature</h1>
+        <ul>
+          <li>
+            <i class="fa-solid fa-thumbs-up"></i>
+            Most Favorite
+          </li>
+          <li>
+            <i class="fa-solid fa-square-check"></i>
+            Certified
+          </li>
+          <li>
+            <i class="fa-solid fa-shield-virus"></i>
+            Professional
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="works" id="works">
+      <div class="container-works">
+        <h1 class="works-heading">How It Works</h1>
+        <iframe id="video" src="https://www.youtube.com/embed/FMoL3fkwQg4" frameborder="0" allowfullscreen>
+        </iframe>
+      </div>
+    </section>
+
+    <section class="pricing" id="pricing">
+      <div class="container-pricing">
+        <h1 class="pricing-heading">Pricing</h1>
+        <div class="pricing-box">
+          <div class="box">
+            <h3>Lorem, ipsum.</h3>
+            <h3>$600</h3>
+            <p>Lorem, ipsum dolor.</p>
+            <p>Lorem, ipsum dolor.</p>
+            <p>Lorem, ipsum dolor.</p>
+            <p>Lorem, ipsum dolor.</p>
+            <a href="#">SELECT</a>
+          </div>
+          <div class="box">
+            <h3>Lorem, ipsum.</h3>
+            <h3>$600</h3>
+            <p>Lorem, ipsum dolor.</p>
+            <p>Lorem, ipsum dolor.</p>
+            <p>Lorem, ipsum dolor.</p>
+            <p>Lorem, ipsum dolor.</p>
+            <a href="#">SELECT</a>
+          </div>
+          <div class="box">
+            <h3>Lorem, ipsum.</h3>
+            <h3>$600</h3>
+            <p>Lorem, ipsum dolor.</p>
+            <p>Lorem, ipsum dolor.</p>
+            <p>Lorem, ipsum dolor.</p>
+            <p>Lorem, ipsum dolor.</p>
+            <a href="#">SELECT</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 
 </html>

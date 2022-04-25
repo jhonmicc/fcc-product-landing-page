@@ -26,7 +26,11 @@ body {
 /* HEADER */
 
 header {
-    padding: 0 1.25rem;
+    z-index: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     min-height: 4.6875rem;
     display: flex;
     align-items: center;
@@ -78,23 +82,36 @@ header {
 }
 
 .text-flex {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     flex-basis: 50%;
+}
+
+.text-flex h1 {
+    text-align: center;
 }
 
 .img-flex {
     flex-basis: 50%;
 }
 
+form {
+    display: flex;
+    gap: 2px;
+}
+
+#email {
+    border-radius: 4px;
+    padding: 12px 15px;
+    width: 70%;
+}
+
 .btn {
-    text-decoration: none;
     background-color: #140033;
     color: #ffcf00;
     padding: 12px 15px;
     border-radius: 4px;
-    margin-top: 10px;
+    border: none;
+    cursor: pointer;
 }
 
 .img-flex img {
@@ -147,7 +164,7 @@ iframe {
 
 /* PRICING */
 .pricing {
-    margin-top: 50px;
+    margin: 50px 0;
 }
 
 .container-pricing {
@@ -174,6 +191,17 @@ iframe {
     color: #ffcf00;
 }
 
+.price-desc {
+    margin-bottom: 20px;
+}
+
 .price {
-    font-size: 32px;
+    font-size: 40px;
+}
+
+.box a {
+    text-decoration: none;
+    color: #140033;
+    background-color: #ffcf00;
+    padding: 10px 20px;
 }
